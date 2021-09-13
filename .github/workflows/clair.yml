@@ -14,6 +14,6 @@ jobs:
         with:
           image: vulnerables/web-dvwa
           local: no
-          report_format: text
-          report_path: clair-report.txt
+          report_format: json
+          report_path: clair-report.json
           updater: debian
