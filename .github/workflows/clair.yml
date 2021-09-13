@@ -7,7 +7,7 @@ on:
 jobs:
   clair-execute:
     name: Clair Scan
-    runs-on: almmc_redhat_runner
+    #runs-on: almmc_redhat_runner
     steps:
       - name: Clair Scan
         uses: santander-group/clair-scan-action@main
