@@ -13,7 +13,7 @@ jobs:
         uses: santander-group/clair-scan-action@main
         with:
           image: vulnerables/web-dvwa
-          local: yes
-          report_format: json
-          report_path: clair-report.json
+          local: no
+          report_format: text
+          report_path: clair-report.txt
           updater: debian
