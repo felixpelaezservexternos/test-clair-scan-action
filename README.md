@@ -1,2 +1,1 @@
 # test-clair-scan-action
-
